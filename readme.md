@@ -1,10 +1,9 @@
 # Introduction
 SnapClipboardOCR:
-* Displaying current weather in Toronto
-* Predicting in real time when the next TTC bus of your choice will arrive
+* Takes a Screenshot of the desktop. Press "S" for first coordinate, "S" again for second portion.
+* Opens a pop-up to display text
 
-This web app is for Torontonians who are tired of switching between many platforms to know the weather and their bus time every morning before they leave the house. 
-
+This app is for taking shots f
 
 # Structure
 ## Frameworks and Libraries
@@ -26,6 +25,6 @@ GUIFileSelector.au3 // Main Program with GUI for file selection and previewing
 ## Limitations
 * You must set $stretchX = 1.5, $stretchY = 1.5 to appropriate values of your desktop scaling for windows 8+
 * DoubleSize() is not working completely with the application, it works and doubles the size of images for clearing 
-* OCR, but currently it mostly doesn't recognize the image afterwards for no reason.
+* OCR, but currently it mostly does not recognize the image afterwards for no reason.
 
 
