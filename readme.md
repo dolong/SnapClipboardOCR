@@ -18,10 +18,15 @@ SnapClipboardOCR:
 
 SnapClipboardOCR/
 ----- images/	// Screenshot folder of clipped area
+
 ---------- screenie.BMP	// saved last image
+
 tesseract.exe // Tesseract (3.0.5)
+
 screenie.au3	// Main Program, immediately triggers
+
 screenie.exe	// Compiled Program
+
 GUIFileSelector.au3 // Main Program with GUI for file selection and previewing
 
 ## Limitations
