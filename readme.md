@@ -6,7 +6,7 @@ SnapClipboardOCR:
 
 * Opens a pop-up to display text
 
-<img src="https://raw.githubusercontent.com/dolong/SnapClipboardOCR/master/limitations2.png" width="500">
+<img src="https://raw.githubusercontent.com/dolong/SnapClipboardOCR/master/limitations2.png">
 
 # Structure
 ## Frameworks and Libraries
