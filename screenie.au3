@@ -60,9 +60,10 @@ ShellExecuteWait(@ScriptDir & "\Tesseract.exe", '"' & $image1 &'" "' & @ScriptDi
 	EndIf
 	$result1 = FileRead(@ScriptDir & "\Result.txt")
 	; MsgBox(0, "Result", $result1)
-	GUICreate("Text Value")
-ClipPut ( $result1 )
-	$gui_img_input = GUICtrlCreateEdit($result1, 20, 40, 200, 80)
+	GUICreate("Text Value", 240,125,200,120)
+	ClipPut ( $result1 )
+	$gui_img_input = GUICtrlCreateLabel("Clipped Text",20,5)
+	$gui_img_input = GUICtrlCreateEdit($result1, 20, 25, 200, 85)
 	GUISetState(@SW_SHOW)
 
     While 1
