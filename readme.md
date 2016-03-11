@@ -1,9 +1,12 @@
 # Introduction
 SnapClipboardOCR:
 * Takes a Screenshot of the desktop. Press "S" for first coordinate, "S" again for second portion.
-![select](https://raw.githubusercontent.com/dolong/SnapClipboardOCR/master/limitations.png)
+
+<img src="https://raw.githubusercontent.com/dolong/SnapClipboardOCR/master/limitations.png" width="500">
+
 * Opens a pop-up to display text
-![ocr](https://raw.githubusercontent.com/dolong/SnapClipboardOCR/master/limitations2.png)
+
+<img src="https://raw.githubusercontent.com/dolong/SnapClipboardOCR/master/limitations2.png" width="500">
 
 # Structure
 ## Frameworks and Libraries
