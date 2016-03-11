@@ -3,8 +3,6 @@ SnapClipboardOCR:
 * Takes a Screenshot of the desktop. Press "S" for first coordinate, "S" again for second portion.
 * Opens a pop-up to display text
 
-This app is for taking shots f
-
 # Structure
 ## Frameworks and Libraries
 * Tesseract
@@ -13,7 +11,6 @@ This app is for taking shots f
 
 ## App Structure
 
-```javascript
 SnapClipboardOCR/
 ----- images/	// Screenshot folder of clipped area
 ---------- screenie.BMP	// saved last image
